@@ -14,5 +14,5 @@ protocol ViewModelDelegate: class {
 }
 
 class BaseViewModel: NSObject {    
-    var delegate: ViewModelDelegate?
+    weak var delegate: ViewModelDelegate?
 }
